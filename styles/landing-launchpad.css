@@ -5,6 +5,13 @@
     /* font-weight: <weight>; */
     font-style: normal;
 }
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
 /* button styles */
 .btn-primary {
     background-color: #4E47FF;
@@ -77,4 +84,34 @@ nav {
 
 .right img {
     border-radius: 48px;
+}
+/* Productive Users Section */
+.user .feedback,
+.user .type {
+    margin: 0;
+}
+.feedback {
+    font-size: 80px;
+    font-weight: bolder;
+     color: #4E47FF;
+}
+.type {
+    font-size: 20px;
+}
+.user-container{
+    display: flex;
+    gap: 160px;
+}
+.section-title{
+    font-size: 2em;
+}
+.productive{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.section-container{
+    padding: 50px 140px;
+    background-color: #E5E7FF;
+    border-radius: 24px;
 }
