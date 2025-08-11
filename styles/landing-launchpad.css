@@ -49,3 +49,32 @@ nav {
     height: 700px;
     width: 100%;
 }
+/* Action section styles */
+.action-title {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.action-description {
+    font-size: 24px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action {
+    margin: 65px 150px 65px 150px;
+}
+
+.left {
+    width: 520px;
+    height: 200px;
+    margin-bottom: 2cm;
+}
+
+.right img {
+    border-radius: 48px;
+}
