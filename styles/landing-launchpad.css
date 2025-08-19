@@ -267,3 +267,35 @@ textarea::placeholder {
     height: 635px;
     align-items: center;
 }
+/* footer styles */
+footer ul li {
+    list-style: none;
+}
+  ul li a {
+    text-decoration: none; 
+    color: inherit; 
+  }
+footer ul {
+    display: flex;
+   gap: 40px;
+
+}
+.footer-div {
+    width: 390px;
+}
+.footer-title,
+.footer-description,
+footer ul li{
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
+footer {
+    display: flex;
+    justify-content: center;
+    height: 430px;
+    align-items: center;
+}
+.footer-title{
+    margin-bottom: 0;
+}
