@@ -267,35 +267,53 @@ textarea::placeholder {
     height: 635px;
     align-items: center;
 }
+
 /* footer styles */
 footer ul li {
     list-style: none;
 }
-  ul li a {
-    text-decoration: none; 
-    color: inherit; 
-  }
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
 footer ul {
     display: flex;
-   gap: 40px;
+    gap: 40px;
 
 }
+
 .footer-div {
     width: 390px;
 }
+
 .footer-title,
 .footer-description,
-footer ul li{
+footer ul li {
     display: flex;
     justify-content: center;
-    text-align: center;    
+    text-align: center;
 }
+
 footer {
     display: flex;
     justify-content: center;
     height: 430px;
     align-items: center;
 }
-.footer-title{
+
+.footer-title {
     margin-bottom: 0;
+}
+
+/* Button and submit hover */
+button:hover,
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: red;
+}
+a:hover{
+    cursor: pointer;
+    color: red;
 }
